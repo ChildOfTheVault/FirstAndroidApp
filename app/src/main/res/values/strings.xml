@@ -7,4 +7,8 @@
     <string name="title_activity_display_message">Logged In</string>
     <string name="title_activity_chat">chatActivity</string>
     <string name="large_text">"This is where chat should be. \n\n"</string>
+    <string name="send_message">Send</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+
 </resources>
