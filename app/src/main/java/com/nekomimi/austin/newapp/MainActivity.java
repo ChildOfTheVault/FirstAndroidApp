@@ -23,16 +23,13 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        //fab.setOnClickListener(new View.OnClickListener() {
                 //Snackbar.make(view, "THIS DOES NOTHING", Snackbar.LENGTH_LONG)
                 //        .setAction("Action", null).show();
-                Intent intent_chat = new Intent(getApplicationContext(), chatActivity.class);
-                startActivity(intent_chat);
-            }
-        });*/
+                //Intent intent_chat = new Intent(getApplicationContext(), chatActivity.class);
+                //startActivity(intent_chat);
+        //});
     }
 
     @Override
@@ -51,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent settings_intent = new Intent(getApplicationContext(), DisplayPreferences.class);
+            startActivity(settings_intent);
             return true;
         }
 

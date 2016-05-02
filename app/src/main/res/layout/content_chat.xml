@@ -35,7 +35,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="@+id/send_message" />
+            android:text="@string/send_message" />
 
     </LinearLayout>
 </LinearLayout>

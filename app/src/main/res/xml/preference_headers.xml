@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.nekomimi.austin.newapp.UpdatePreferenceFragment"
+        android:title="Update"
+        android:summary="Summary" >
+    </header>
+    <header
+        android:fragment="com.nekomimi.austin.newapp.DisplayPreferenceFragment"
+        android:title="Display"
+        android:summary="Summary">
+    </header>
+    <header
+        android:fragment="com.nekomimi.austin.newapp.NotifyPreferenceFragment"
+        android:title="Notify">
+    </header>
+    <!--<header android:fragment="com.example.android.apis.preference.UpdatePreferenceFragment"
+        android:icon="@drawable/ic_settings_applications"
+        android:title="Prefs 1"
+        android:summary="An example of some preferences." />
+
+    <header android:fragment="com.example.android.apis.preference.DisplayPreferenceFragment"
+        android:icon="@drawable/ic_settings_display"
+        android:title="Prefs 2"
+        android:summary="Some other preferences you can see.">-->
+        <!-- Arbitrary key/value pairs can be included with a header as
+             arguments to its fragment. -->
+       <!-- <extra android:name="someKey" android:value="someHeaderValue" />
+    </header>
+
+    <header android:icon="@drawable/ic_settings_display"
+        android:title="Intent"
+        android:summary="Launches an Intent.">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="http://www.android.com" />
+    </header>-->
+
+</preference-headers>

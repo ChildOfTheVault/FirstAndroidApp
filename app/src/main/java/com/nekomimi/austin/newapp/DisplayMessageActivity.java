@@ -29,7 +29,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
                 startActivity(intent_chat);
             }
         });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         String message2 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
