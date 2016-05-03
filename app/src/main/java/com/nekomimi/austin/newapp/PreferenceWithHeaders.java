@@ -1,12 +1,12 @@
 package com.nekomimi.austin.newapp;
 
 import android.preference.PreferenceActivity;
-import android.preference.PreferenceFragment;
-import android.preference.PreferenceManager;
-import android.os.Bundle;
-import android.widget.Button;
+//import android.preference.PreferenceFragment;
+//import android.preference.PreferenceManager;
+//import android.os.Bundle;
+//import android.widget.Button;
 import java.util.List;
-import android.util.Log;
+//import android.util.Log;
 
 
 public class PreferenceWithHeaders extends PreferenceActivity {

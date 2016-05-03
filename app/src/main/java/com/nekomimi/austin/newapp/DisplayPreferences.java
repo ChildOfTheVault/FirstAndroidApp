@@ -1,8 +1,8 @@
 package com.nekomimi.austin.newapp;
 
 import android.preference.PreferenceActivity;
-import android.preference.PreferenceFragment;
-import android.os.Bundle;
+//import android.preference.PreferenceFragment;
+//import android.os.Bundle;
 
 import java.util.List;
 
