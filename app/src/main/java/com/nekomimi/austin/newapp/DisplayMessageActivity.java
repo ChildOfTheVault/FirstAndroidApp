@@ -33,7 +33,16 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         String message2 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
-        TextView textView = new TextView(getApplicationContext());
+
+        if (message != null) {
+            TextView nametext = (TextView) findViewById(R.id.username);
+            nametext.setText(message);
+        }
+        if (message2 != null) {
+            TextView infotext = (TextView) findViewById(R.id.info);
+            infotext.setText(message2);
+        }
+        /*TextView textView = new TextView(getApplicationContext());
         textView.setTextSize(40);
         textView.setText(message);
         textView.setId('1');
@@ -41,9 +50,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
         TextView textView2 = new TextView(getApplicationContext());
         textView.setTextSize(40);
         textView.setText(message2);
-        textView2.setId('2');
+        textView2.setId('2');*/
 
-        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+        /*RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         params.addRule(RelativeLayout.ALIGN_PARENT_TOP);
 
         RelativeLayout.LayoutParams params2 = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
@@ -52,7 +61,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
         layout.addView(textView, params);
-        layout.addView(textView2, params2);
+        layout.addView(textView2, params2);*/
     }
 
 }

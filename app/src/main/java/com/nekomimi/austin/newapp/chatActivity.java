@@ -3,6 +3,9 @@ package com.nekomimi.austin.newapp;
 import android.app.Activity;
 import android.database.DataSetObserver;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AbsListView;
@@ -25,6 +28,8 @@ public class chatActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_chat);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         buttonSend = (Button) findViewById(R.id.send);
 

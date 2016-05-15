@@ -10,7 +10,7 @@
         android:layout_gravity="start"
         android:layout_marginBottom="5dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/textview"
+        android:background="@drawable/textview2"
         android:paddingBottom="8dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"

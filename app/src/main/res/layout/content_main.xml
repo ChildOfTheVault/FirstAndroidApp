@@ -29,6 +29,4 @@
         android:layout_below="@+id/edit_message2"
         android:onClick="sendMessage"/>
 
-
-
 </RelativeLayout>
